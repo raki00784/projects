@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding: 0;
+    line-height: 1.5;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+img{
+    width:50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+nav{
+    height: 70px;
+    padding: 10px 0;
+    font-size: large;
+    border: 2px solid black;
+    font-weight: 600;
+    
+}
+.container1 a{
+    padding-left:20px;
+    
+}
+.container2 a{
+    margin-right: 30px;
+    padding:0 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 40px;
+}
+main{
+    
+    display: grid;
+    place-items: center;
+    background-color: rgb(41, 40, 40);
+    color:white;
+    font-weight: 600;
+    
+    text-align: center;
+    
+}
+h1{
+      font-size: 50px;
+    letter-spacing: 3px;
+    padding-top: 50px;
+}
+h4{
+    color:pink;
+    font-size: 23px;
+    padding-bottom: 3;
+   
+}
+main a{
+    color:white;
+    font-size: large;
+    text-transform: capitalize;
+}
+main input{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    color: gray;
+
+}
+.container-all{
+    background-color: green;
+    height: 40vh;
+   
+    
+}
+.all-1{
+    padding-left: 200px;
+    font-weight: bolder;
+}
+section h1{
+    font-size: 80px;
+    letter-spacing: 5px;
+    line-height: 0.4;
+
+}
+section p{
+    font-size: 20px;
+}
+section a{
+    line-height: 2.5;
+    color:white;
+    padding: 7px;
+    border-radius: 25px;
+
+}
+section .green{
+    background-color: rgb(91, 146, 8);
+}
+section .yellow{
+    background-color: yellow;
+    color: black;
+}
+section .reference{
+    background-color: black;
+}
+section .pink{
+    background-color: pink;
+}
+section .black{
+    background-color: black;
+}
+section.blue{
+    background-color: blue;
+}
